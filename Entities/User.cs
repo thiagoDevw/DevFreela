@@ -10,7 +10,7 @@
             BirthDate = birthDate;
             Active = true;
 
-            Skill = [];
+            Skills = [];
             OnnedProjects = [];
             FreelanceProjects = [];
             Comments = [];
@@ -21,9 +21,10 @@
         public DateTime BirthDate { get; private set; }
         public bool Active { get; private set; }
 
-        public List<UserSkill> Skill { get; private set; }
+        public List<UserSkill> Skills { get; private set; }
         public List<Project> OnnedProjects { get; private set; }
         public List<Project> FreelanceProjects { get; private set; }
         public List<ProjectComment> Comments { get; private set; }
+     
     }
 }
